@@ -16,8 +16,7 @@ fly -t tutorial watch -j hello-world/job-hello-world
 The output will be similar to:
 
 ```
-Cloning into '/tmp/build/get'...
-a3edcb3 restrict mkdocs packages until can make time to upgrade https://ci2.starkandwayne.com/teams/starkandwayne/pipelines/concourse-tutorial/jobs/website-master/builds/32
+using version of resource found in cache
 initializing
 running echo hello world
 hello world
