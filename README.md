@@ -20,10 +20,15 @@ Read the tutorial at https://concoursetutorial.com
 
 ## Local development of tutorial
 
-This tutorial is built using [`mkdocs`](http://www.mkdocs.org/). Once installed, you can continuously build and serve the tutorial locally with:
+This tutorial is built using [`mkdocs`](http://www.mkdocs.org/). A suitable [`pipenv`](https://docs.pipenv.org/en/latest/) environment, i.e. including all required dependencies, can be installed using the provided [`Pipfile`](Pipfile):
+```plain
+pipenv install
+```
+
+Once installed, you can continuously build and serve the tutorial locally with:
 
 ```plain
-mkdocs serve
+pipenv run mkdocs serve
 ```
 
 View the site and live changes at https://localhost:8000.
